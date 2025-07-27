@@ -4,7 +4,7 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 
 const URL = "https://www.googleapis.com/youtube/v3/videoCategories"
-const API_KEY = "AIzaSyCqVWUY6xIQ7wtwErgGlQzWZAoTTU1fWkY"
+const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY
 
 export const useCategory = () => {
     const dispatch = useDispatch()
