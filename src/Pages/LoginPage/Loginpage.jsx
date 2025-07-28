@@ -257,7 +257,7 @@ export const LoginPage = () => {
           {/* Submit */}
           <div className="flex items-center justify-between text-sm text-amber-950">
             <label className="flex items-center">
-              <input type="checkbox" classNAme="h-4 w-4 text-blue-600" />
+              <input type="checkbox" className="h-4 w-4 text-blue-600" />
               <span className="ml-2 text-blue-950 font-medium font-popins">
                 Remember me
               </span>
